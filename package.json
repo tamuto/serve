@@ -1,12 +1,13 @@
 {
   "name": "@infodb/serve",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple web server",
   "author": "tamuto <tamuto@infodb.jp>",
   "license": "MIT",
-  "module": "index.ts",
-  "type": "module",
   "bin": "./src/cli.ts",
+  "scripts": {
+    "build": "bun build --entry src/cli.ts --outDir dist --target bun"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
