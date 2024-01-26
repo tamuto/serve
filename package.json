@@ -1,7 +1,7 @@
 {
   "name": "@infodb/serve",
-  "version": "0.0.5",
-  "description": "A web server for frontend",
+  "version": "0.1.0",
+  "description": "Front-end Web Server Tool",
   "author": "tamuto <tamuto@infodb.jp>",
   "license": "MIT",
   "bin": "./bin/serve.js",
