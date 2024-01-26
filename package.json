@@ -1,0 +1,22 @@
+{
+  "name": "@infodb/serve",
+  "version": "0.0.1",
+  "description": "A simple web server",
+  "author": "tamuto <tamuto@infodb.jp>",
+  "license": "MIT",
+  "module": "index.ts",
+  "type": "module",
+  "bin": "./src/cli.ts",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
