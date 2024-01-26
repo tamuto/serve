@@ -5,7 +5,7 @@ import { responseScript } from './script'
 import { responseFile } from './others'
 
 program
-  .version('0.0.4', '-v, --version', 'output the current version')
+  .version('0.0.5', '-v, --version', 'output the current version')
   .usage('[options]')
   .option('--base <path>', 'base directory', '.')
   .option('--port <port>', 'port number', '8080')

@@ -1,10 +1,10 @@
 {
   "name": "@infodb/serve",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A web server for frontend",
   "author": "tamuto <tamuto@infodb.jp>",
   "license": "MIT",
-  "bin": "./dist/cli.js",
+  "bin": "./bin/serve.js",
   "scripts": {
     "build": "bun build --entry src/cli.ts --outdir dist --target bun"
   },
