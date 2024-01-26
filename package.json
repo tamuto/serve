@@ -4,6 +4,14 @@
   "description": "Front-end Web Server Tool",
   "author": "tamuto <tamuto@infodb.jp>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamuto/serve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tamuto/serve/issues"
+  },
+  "homepage": "https://github.com/tamuto/serve#readme",
   "bin": "./bin/serve.js",
   "scripts": {
     "build": "bun build --entry src/cli.ts --outdir dist --target bun"
