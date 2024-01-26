@@ -1,21 +1,19 @@
 {
   "name": "@infodb/serve",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A web server for frontend",
   "author": "tamuto <tamuto@infodb.jp>",
   "license": "MIT",
-  "bin": "./dist/cli.ts",
+  "bin": "./dist/cli.js",
   "scripts": {
-    "build": "bun build --entry src/cli.ts --outDir dist --target bun"
+    "build": "bun build --entry src/cli.ts --outdir dist --target bun"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "commander": "^11.1.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "commander": "^11.1.0"
   },
   "publishConfig": {
     "access": "public"
